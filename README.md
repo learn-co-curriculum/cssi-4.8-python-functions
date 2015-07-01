@@ -93,19 +93,20 @@ Another thing that is important to understand about python functions is variable
 
 When you declare a variable outside of a function it will also be available inside of the function. For example:
 
- ```python
+ ```
  milkType = "whole milk"
  def IsWholeMilk():
  	if (milkType == "whole milk”):
  		return true
  	else:
  		return false
- ```
+```
+
 If I run `IsWholeMilk();` we’ll get back true. The function `IsWholeMilk` has access to the variable milkType that was declared outside of the function.
 BUT if you declare a variable inside of a function it will only be available inside of the function.
 Here is an example:
 
- ```python
+ ```
  def milkTheCow():
    bessyCow = 'milked'  # local var
    return bessyCow;
@@ -120,11 +121,11 @@ The only way you can get access to `bessyCow` is if you run the function. Then `
 
 *Variable scope* - and not being able to access variables outside of a function - seems annoying but it’s really important and helpful because you will know exactly what your variable is equal to - it can only be set from within your function so it can only be equal to the value that you set within your function.
 
-Lists as inputs
+#Lists as inputs
 
  Functions can accept lists as inputs:
 
- ```python
+ ```
  def GetMaximumLength(list_of_strings):
      lengths = []
      for item in list_of_strings:
@@ -136,7 +137,7 @@ Lists as inputs
 
  And functions can return lists:
 
- ```python
+ ```
  def GetDigits(my_string):
      digits = []
      for letter in my_string:
@@ -149,7 +150,7 @@ Lists as inputs
 
  Functions can modify their arguments:
 
- ```python
+ ```
  def SwapEnds(some_list):
      some_list[0] = some_list[-1]
 
@@ -165,6 +166,6 @@ Lists as inputs
  print a_list
  ```
 
- #Conclusion / So What?
+#Conclusion / So What?
 
  Functions are the building block of any developer. They let you create little machines (mice) that you can use and re-use from other parts of your code. This can make life a lot easier and save a ton of typing!
