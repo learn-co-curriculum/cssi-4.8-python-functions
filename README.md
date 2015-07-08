@@ -76,7 +76,6 @@ def DoMath(x,y):
 	return xy
 ```
 Notice there is a `return` statement. We need to include `return` in order to get something back from the function. In essence if we left off the return statement Cheddar might perform the math in his head but not give us the answer. By saying return we’re telling the function give us back the answer.
-This is important because most of the time functions don’t live all alone by themselves they rely on other functions - so getting something back is very important. Don’t forget the return! Another way to think about it is that `return` talks to the computer and `print` talks to people
 
 # N.I.C.O
 
