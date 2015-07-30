@@ -1,8 +1,4 @@
----
-tags: cssi, python, functions
-level: 2
-languages: python
----
+
 #Python Functions
 
 #Objectives:
