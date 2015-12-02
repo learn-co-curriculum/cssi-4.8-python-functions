@@ -174,3 +174,5 @@ Functions can return lists:
 #Conclusion / So What?
 
  Functions are the building block of any developer. They let you create little machines (mice) that you can use and re-use from other parts of your code. This can make life a lot easier and save a ton of typing!
+
+<a href='https://learn.co/lessons/cssi-4.8-python-functions' data-visibility='hidden'>View this lesson on Learn.co</a>
